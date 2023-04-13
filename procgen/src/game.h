@@ -58,7 +58,7 @@ struct GameOptions {
     int plain_assets = 0;
     int physics_mode = 0;
 
-    //bossfight2
+    // bossfight2
     int agent_health = 1;
 };
 

@@ -112,7 +112,7 @@ def main():
     )
 
     parser.add_argument(
-        "--agent_health", type=int, help="number of hits the agent can take in bossfight2"
+        "--agent-health", type=int, help="number of hits the agent can take in bossfight2"
     )
 
     args = parser.parse_args()
