@@ -14,6 +14,7 @@ MAX_STATE_SIZE = 2 ** 20
 ENV_NAMES = [
     "bigfish",
     "bossfight",
+    "bossfight2",
     "caveflyer",
     "chaser",
     "climber",
@@ -120,6 +121,7 @@ class BaseProcgenEnv(CEnv):
                 "render_human": render_human,
                 # these will only be used the first time an environment is created in a process
                 "resource_root": resource_root,
+                "agent_health": agent_health,
             }
         )
 
